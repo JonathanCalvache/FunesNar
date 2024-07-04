@@ -1,0 +1,34 @@
+@media screen and (max-width: 768px){
+
+    
+
+	.contenedor {
+		grid-template-areas: "header header header"
+						 "contenido contenido contenido"
+						 "sidebar sidebar sidebar"
+						 "widget-1 widget-1 widget-1"
+             "widget-2 widget-2 widget-2"
+						 "footer footer footer";
+	}
+
+	.titulo{
+		text-align: center;
+		font-size: 1em;
+	}
+
+  .n1{
+    display: block;
+    margin: 15px;
+    margin-left: 25px;
+    padding: 10px;
+    background-color: blue;
+    border-radius: 25px;
+    text-align: center;
+  }
+
+  body{
+    background: mediumturquoise;
+  }
+
+
+}
